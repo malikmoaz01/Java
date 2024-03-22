@@ -1,4 +1,0 @@
-HackerRank 
-LeetCode 
-Codechef
-Geekforgeeks
