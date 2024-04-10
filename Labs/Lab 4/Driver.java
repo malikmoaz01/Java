@@ -35,6 +35,12 @@ class Word
 }
 class Dictionary
 {
+    // Write in comments with numbering for the following DS: 
+    // 1. Linked List 
+    // 2. Vector
+    // 3. ArrayList
+
+
 	HashMap<String, String> map;
 	
 	
@@ -72,7 +78,8 @@ class Dictionary
 	}	
 }
 	
-public class Driver{
+public class Driver
+{
 		public static void main(String args[])
 		
 		{

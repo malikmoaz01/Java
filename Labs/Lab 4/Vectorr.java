@@ -51,7 +51,7 @@ class Dictionary {
     }
 }
 
-public class Vectorr {
+public class Vector_ {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Dictionary dictionary = new Dictionary();

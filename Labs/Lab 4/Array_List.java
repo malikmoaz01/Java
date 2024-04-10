@@ -30,6 +30,7 @@ class Words {
 }
 
 class Dictionary {
+    
     private ArrayList<Words> wordList;
 
     public Dictionary() {
