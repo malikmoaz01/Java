@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 1</title>
+</head>
+<body>
+<form id="Task2">
+    <table>
+        <tr>
+            <td>Name </td>
+            <td>
+                <input type="text" name="name" id="name" >
+                <span class="error" id="invalidName"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Email </td>
+            <td>
+                <input type="text" name="email" id="email" >
+                <span class="error" id="invalidEmail"></span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="button">Submit </button></td>
+        </tr>
+    </table>
+</form>
+
+<script>
+document.getElementById('name').onblur = function() {
+
+    var name = this.value;
+	
+    if (name.trim() === '') 
+	{
+        document.getElementById('invalidName').innerText = 'Please enter a valid name';
+    } 
+	else
+	{
+        document.getElementById('invalidName').textContent = '';
+    }
+};
+
+document.getElementById('email').onblur = function() {
+    var email = this.value;
+    if (email.indexOf('@') === -1 || email.indexOf('.') === -1) 
+	{
+        document.getElementById('invalidEmail').textContent = 'Please enter a valid email';
+    } 
+	else {
+        document.getElementById('invalidEmail').textContent = '';
+    }
+}
+</script>
+</body>
+</html>
