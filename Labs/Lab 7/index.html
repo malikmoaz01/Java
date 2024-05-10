@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="result" disabled></td>
+                <td><button onclick="clear_Input_Field()" id="b1">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add_Number('1')" id="b1">1</button></td>
+                <td><button onclick="add_Number('2')" id="b1">2</button></td>
+                <td><button onclick="add_Number('3')" id="b1">3</button></td>
+                <td><button onclick="Operations('/')" id="b1">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add_Number('4')" id="b1">4</button></td>
+                <td><button onclick="add_Number('5')" id="b1">5</button></td>
+                <td><button onclick="add_Number('6')" id="b1">6</button></td>
+                <td><button onclick="Operations('*')" id="b1">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add_Number('7')" id="b1">7</button></td>
+                <td><button onclick="add_Number('8')" id="b1">8</button></td>
+                <td><button onclick="add_Number('9')" id="b1">9</button></td>
+                <td><button onclick="Operations('-')" id="b1">-</button></td>
+            </tr>
+            <tr>
+                
+                <td><button onclick="add_Number('0')" id="b1">0</button></td>
+                <td><button onclick="add_Number('.')" id="b1">.</button></td>
+                <td><button onclick="calculate()"   id="b1">=</button></td>
+                <td><button onclick="Operations('+')" id="b1">+</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
