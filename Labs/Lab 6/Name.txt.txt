@@ -1,9 +1,0 @@
-Design an HTML form with input fields for name, email, and a submit button. 
-Write JavaScript code to add event handler to the input fields for the "blur" event (i.e., onblur). When the user clicks away from an 
-input field without entering valid information (e.g., a valid name or email address), display a message next to the field indicating the 
-error. 
- 
-Instructions: 
- Use tabular format to design the HTML form. 
- You must need to use indexof() to validate an email address. Any simple solution using input type=”email” shall not 
-be graded
